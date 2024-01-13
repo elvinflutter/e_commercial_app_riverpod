@@ -24,4 +24,9 @@ class KAppTheme {
     fontWeight: FontWeight.bold,
   );
   static const kSeeAllText = TextStyle(color: kPrimaryColor);
+
+  static const kCardHeadingTextStyle = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w600,
+  );
 }
