@@ -2,10 +2,10 @@ class ProductModel {
   final int pid;
   final String imgUrl;
   final String title;
-  final String subtitle;
-  final String price;
+  final String shortDescription;
+  final double price;
   final String longDescription;
-  final int reviews;
+  final int review;
   final double rating;
   bool isSelect;
   int gty;
@@ -14,10 +14,10 @@ class ProductModel {
     required this.pid,
     required this.imgUrl,
     required this.title,
-    required this.subtitle,
+    required this.shortDescription,
     required this.price,
     required this.longDescription,
-    required this.reviews,
+    required this.review,
     required this.rating,
     this.isSelect = false,
     this.gty = 1,
